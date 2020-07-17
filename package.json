@@ -1,0 +1,19 @@
+{
+  "name": "pre_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task.js",
+  "scripts": {
+    "test": "mocha",
+    "test-with-coverage": "nyc --reporter=text mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "assert": "^2.0.0"
+  }
+}
